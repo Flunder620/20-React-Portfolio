@@ -1,0 +1,19 @@
+.projects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+.preview{
+    width: 300px;
+    height:300px;
+}
+.preview h3{
+    color: #C47AC0;
+}
+#password-generator{
+    background: url(../../assets/images/dd.jpg);
+    background-size: cover;
+    background-position: center;
+    // width: 500px;
+}
