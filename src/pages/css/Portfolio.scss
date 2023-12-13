@@ -4,16 +4,46 @@
     flex-wrap: wrap;
     gap: 150px;
 }
+.projects a:hover {
+    color: #747bff;
+}
 .preview{
     width: 300px;
     height:300px;
+    font-size: 16px;
 }
-.preview h3{
-    color: #C47AC0;
+.preview a{
+    color: #2F323A;
+    background-color: #B4B8AB;
+}
+#marvel-api-app{
+    background: url(../../assets/images/marvel-webapp-project-screenshot.png);
+    background-size: cover;
+    background-position: center;
+}
+#dnd-app{
+    background: url(../../assets/images/character-quiz.png);
+    background-size: cover;
+    background-position: center;
 }
 #password-generator{
-    background: url(../../assets/images/dd.jpg);
+    background: url(../../assets/images/passwordgenprev.png);
     background-size: cover;
     background-position: center;
     // width: 500px;
+}
+#weather-app{
+    background: url(../../assets/images/preview.png);
+    background-size:cover;
+    // background-position: center;
+}
+#schedule-app{
+    background: url(../../assets/images/project-preview.png);
+    background-size:cover;
+    background-position: center;
+}
+#code-quiz-app{
+    background: url(../../assets/images/coding-quiz-prev.png);
+    background-size:cover;
+    background-position: center;
 }
