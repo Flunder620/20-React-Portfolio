@@ -3,22 +3,31 @@ import { useState, useEffect } from "react";
 
 
 export default function Contact() {
-    const [inputValue, setInputValue] = useState('');
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        text: '',
+    });
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log(inputValue)
-    }
+        console.log(formData);
+        setFormData({
+            name: '',
+            email: '',
+            text: '',
+        })
+      };
 
 
     return(
         <>
         <h1>Contact Me</h1>
         <div>
-            <form className="contact-form">
-                <input type ='text' placeholder="Enter your name" required value ={inputValue} onChange={(e) => setInputValue(e.target.value)}></input>
-                <input type ='text' placeholder="Enter your email" required value ={inputValue} onChange={(e) => setInputValue(e.target.value)}></input>
-                <textarea placeholder="Send me a message!"></textarea>
+            <form onSubmit={handleSubmit} className="contact-form">
+                <input type ='text' value={formData.name} placeholder="Enter your name" required onChange={(e) => setFormData({ ...formData, name: e.target.value })}></input>
+                <input type ='text' value ={formData.email} placeholder="Enter your email" required onChange={(e) => setFormData({ ...formData, email: e.target.value })}></input>
+                <textarea placeholder="Send me a message!" value = {formData.text} onChange={(e) => setFormData({ ...formData, text: e.target.value })}></textarea>
                 <button onClick={handleSubmit}>Submit</button>
             </form>
         </div>
