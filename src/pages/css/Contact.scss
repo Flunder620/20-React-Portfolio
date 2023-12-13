@@ -11,10 +11,17 @@ button{
 }
 button:hover {
   border-color: #E39EC1;
-  ;
 }
 
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+.contact-form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.container{
+  width:100%;
 }

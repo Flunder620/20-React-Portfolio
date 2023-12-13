@@ -10,7 +10,7 @@ export default function Portfolio() {
             <a href='https://github.com/coding-bootcamp-project2/bootcamp-project2' target="_blank">Marvel API App</a>
         </a>
         <a href='https://dnd-character-generator-app-3900836cda13.herokuapp.com/' target="_blank"  id="dnd-app" className="preview">
-            <a href='https://github.com/coding-bootcamp-project2/bootcamp-project2' target="_blank">Dungeons and Dragons Character Creator</a>
+            <a href='https://github.com/coding-bootcamp-project2/bootcamp-project2' target="_blank">D&D Character Creator</a>
         </a>
         <a href='https://flunder620.github.io/Password-Generator/' target="_blank"  id="password-generator" className="preview">
             <a href='https://github.com/Flunder620/Password-Generator' target="_blank">Password Generator</a>
