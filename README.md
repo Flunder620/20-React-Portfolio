@@ -29,3 +29,5 @@ The following image shows the web application's appearance and functionality:
 - REACT
 
 - Sass
+
+- Netlify
