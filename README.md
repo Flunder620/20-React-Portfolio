@@ -18,7 +18,7 @@ The following image shows the web application's appearance and functionality:
 
 ## Deployment Link
 
-https://65793dbe3a990d55d0e770ef--fascinating-brioche-7a7d9f.netlify.app/
+https://657bd1b6c18ec129bcc0d169--animated-biscochitos-fc59c8.netlify.app/
 
 ## Credits
 
